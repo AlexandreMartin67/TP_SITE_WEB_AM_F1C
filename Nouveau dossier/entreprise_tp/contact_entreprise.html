@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<meta charset="utf-8">
+	<title>Projet Martin-pécheur and co</title>
+	<link rel="stylesheet" type="text/css" href="entreprise.css">
+	<link rel="stylesheet" media="screen and (max-width: 1280px)" href="petite_resolution.css" type="text/css" />
+</header>
+<body>
+
+	<nav>
+		<h2>Martin pécheur and co</h2>
+		<h2><a href="présentation_entreprise">Présentation</a></h2>
+		<h2><a href="partenaire.html">Partenaire</a></h2>
+		<h2><a href="projet.html">Projet</a></h2>
+		<h2><a href="contact_entreprise.html">Contact</a></h2>
+		<h2><img id="logo" src="image/logo.jpg"></img></h2>
+	</nav>
+
+	<br/>
+
+	<section>
+		<article>
+			<!--Intro formulaire-->
+				<form method="POST" action="traitement.php">
+					<!--contenu du formulaire-->
+					<br/>
+					<fieldset>
+						<br/>
+						<br/>
+						<label for="nom">Nom *</label> : <input type="text" name="nom" id="nom" placeholder="nom :" required autofocus/>					
+						<br/>
+						<br/>
+						<label for="prenom">Prenom *</label> : <input type="text" name="prenom" id="prenom" placeholder="Prenom :" size="30" maxlength="20" required/>
+						<br/>
+						<br/>
+						<label for="des">projet/question</label> : <textarea name="des" id="des" rows="10" cols="50" placeholder="question ou projet :"></textarea>
+						<br/>
+						<br/>
+						<label for="mail">mail *</label> : <input type="email" name="mail" id="mail" placeholder="mail :" required/>
+						<br/>
+						<br/>
+						<label for="telephone">tel *</label> : <input type="tel" name="telephone" id="telephone" placeholder="telephone :" required/>
+						<br/>
+						<br/>
+					</fieldset>
+
+					<br/>
+
+					<fieldset> <!--checkbox sert a crée des cases a cocher-->
+						<legend>Votre satut</legend>
+						<input type="radio" name="satut" value="pro public" id="pro public" checked/><label for="pro public">pro public</label>
+						<br/>
+						<br/>
+						<input type="radio" name="satut" value="particulier" id="particulier" checked/><label for="particulier">particulier</label>
+						<br/>
+						<br/>
+						<input type="radio" name="satut" value="pro privé" id="pro privé" checked/><label for="pro privé">pro privé</label>
+						<br/>
+						<br/>
+						<input type="radio" name="satut" value="industriel" id="industriel" checked/><label for="industriel">industriel</label>
+						<br/>
+						<br/>
+					</fieldset>
+
+					<br/>
+
+					<fieldset> <!--radio sert a crée des rond a cocher mais il ne peut y avoir qu'un rond cocher-->
+						<legend>Choissisez votre sexe</legend>
+						<input type="radio" name="sexe" value="Homme" id="Homme" checked/><label for="Homme">Homme</label>
+						<br/>
+						<br/>
+						<input type="radio" name="sexe" value="Femme" id="Femme" ><label for="Femme">Femme</label>
+						<br/>
+						<br/>
+					</fieldset>
+
+					<br/>
+
+					<fieldset>
+						<legend>choix Pays</legend>
+						<label for="Pays">Votre pays</label>
+						<br/>
+						<select name="pays" id="pays">
+							<option value="France">France</option>
+							<option value="Allemagne">Allemagne</option>
+							<option value="UK">UK</option>
+							<option value="Canada">Canada</option>
+							<option value="Espagne">Espagne</option>
+							<option value="Angleterre">Angleterre</option>
+							<option value="US">US</option>
+						</select>
+						<br/>
+						<br/>
+					</fieldset>
+
+					<input type="submit" name="envoyer" id="envoyer" value="Envoyer" />
+
+				</form>
+		</article>
+	</section>
+</body>
+<footer>
+	<p><img id="logo" src="image/logo.jpg"></img> Martin pécheur and co , tous droit réserver</p>
+</footer>
+</html>

@@ -1,0 +1,79 @@
+@media screen and (max-width:1280px){
+
+}
+
+html{
+	font-size: 150%;
+}
+
+footer{
+	font-size: 160%;
+}
+
+nav{
+	flex-direction: column;
+}
+
+h2{
+	margin:auto;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+}
+
+legend{
+	font-size: 150%
+}
+
+fieldset {
+	font-size: 150%;
+}
+
+#nom {
+	margin-left: 50%;
+	height: 40%;
+	width: 40%;
+	font-size: 150%;
+}
+
+#prenom {
+	margin-left: 50%;
+	height: 40%;
+	width: 40%;
+	font-size: 150%;
+}
+
+#des {
+	margin-left: 50%;
+	height: 40%;
+	width: 40%;
+	font-size: 150%;
+}
+
+#mail {
+	margin-left: 50%;
+	height: 40%;
+	width: 40%;
+	font-size: 150%;
+}
+
+#telephone {
+	margin-left: 50%;
+	height: 40%;
+	width: 40%;
+	font-size: 150%;
+}
+
+#pays {
+	height: 40px;
+	width: 30%;
+	font-size: 100%;
+}
+
+#envoyer {
+	height: 40px;
+	width: 30%;
+	font-size: 150%;
+}
